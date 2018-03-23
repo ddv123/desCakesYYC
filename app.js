@@ -16,6 +16,6 @@ app.get("/", function(req, res){
 	res.render('home');
 }); 
 
-app.listen(process.env.HOST, function(){
+app.listen(3000, function(){
 	console.log("Server started");
 });	
