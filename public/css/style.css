@@ -1,0 +1,183 @@
+
+@media (max-width: 577px) { 
+	
+}
+
+@media (max-width: 769px) {
+	.cake-social{
+		padding-top: 180px!important;
+    	padding-bottom:160px!important;
+	}
+
+}
+
+@media (max-width: 993px) { 
+	#celebrate {
+		text-align: center;
+
+	}
+
+	.cake-wrapper{
+		width: 360px!important;
+		padding: 0 0;
+		margin: 10px auto 0 auto;
+	}
+
+	.cake {
+		position: relative!important;
+		top: 0!important;
+		width: 360px!important;
+		margin: 5px auto;
+
+	}
+
+	.cake-social {
+		padding-top: 250px;
+    	padding-bottom: 230px;
+	}
+
+}
+
+@media (min-width: 994px) { 
+	.cake {
+		width: 450px;
+		left: 50px;
+	}
+	.cake-social {
+		padding-top: 250px;
+    	padding-bottom: 230px;
+	}
+
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Playfair Display', serif;
+
+}
+
+p{
+	font-size: 20px;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+}
+
+.nav-item {
+	font-size: 1rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding-left: 10px!important;
+}
+
+.bg-light {
+	background-color: white!important;
+}
+
+.jumbotron {
+	background-color: white;
+	padding: 8rem 2rem;
+	text-align: center;
+	margin-bottom: 2.5rem;
+	z-index: -2;
+}
+
+.intro {
+	margin: 20px auto;
+	position: relative;
+	z-index: 1;
+	background-color: Aliceblue;
+	border-radius: 25px;
+}
+
+.cake{
+	position: absolute;
+	top:-77px;
+	height: auto;
+	z-index: -1;
+
+}
+
+#celebrate {
+	margin: 40px 0;
+	padding: 0 20px;
+}
+
+.cake-header{
+	text-align: center;
+	margin: 90px auto;
+}
+
+.cake-instagram{
+	height: 285px;
+   	padding: 0 0;
+}
+
+.cake-target{
+	width: 90%;
+	height: 90%;
+	margin: 10px auto;
+	background-position: center;
+   	background-size: cover;
+}
+
+.cake-target:hover {
+	opacity: 0.5;
+}
+
+.cake-social {
+	background-image: url("../assets/img/cupcakes.jpeg");
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.8;
+	color: white;
+
+	border-radius: 25px;
+    
+    margin-top: 133px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.cake-social-icons{
+	font-size: 64px;
+	float:right;
+}
+
+.social-icons {
+		color: white;
+}
+.social-icons:hover {
+		color: white;
+		opacity: 0.8;
+}
+
+.cake-form{
+	width: 90%;
+	margin: 0 auto;
+	padding: 70px 0;
+}
+
+.cake-mail {
+	text-decoration: none;
+	color:grey;
+}
+.cake-mail:hover {
+	text-decoration: none;
+	color:grey;
+	opacity: 0.7;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 80px;
+}
