@@ -154,6 +154,17 @@ p{
 	float:right;
 }
 
+.carousel-inner {
+	background: #dcdcdc;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	border-radius: 25px;
+}
+
+.carousel-inner > .carousel-item > img {
+	margin: 0 auto;
+}
+
 .social-icons {
 		color: white;
 }
