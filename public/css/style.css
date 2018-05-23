@@ -193,3 +193,65 @@ p{
 	text-align: center;
 	margin-top: 80px;
 }
+
+/*animations*/
+
+nav {
+	opacity: 0;
+	animation: 1s fadein linear forwards;
+}
+
+@keyframes fadein {
+	100% {
+		opacity: 1;
+	}
+}
+
+#top {
+	opacity: 0;
+	animation: 3s 1s slidefade ease-out forwards;
+	position: relative;
+}
+
+@keyframes slidefade {
+	0% {
+		opacity: 0;
+		transform: translate( 0, 40%);
+	}
+
+	50% {
+		opacity: 1;
+		transform: translate( 0, 40%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+#celebrate {
+	opacity: 0;
+	animation: 1s 4s fadein ease-out forwards;
+}
+
+.cake {
+	opacity: 0;
+	animation: 1.5s 3s scalein ease-out forwards;
+}
+
+.intro {
+	opacity: 0;
+	animation: 1s 3.5s fadein ease-in forwards;
+}
+
+@keyframes scalein {
+	0% {
+		opacity: 0;
+		transform: scale(0) rotate(-45deg);
+	}
+	100% {
+		opacity: 1; 
+		transform: scale(1) rotate(0deg);
+	}
+}
