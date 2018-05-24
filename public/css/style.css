@@ -198,7 +198,7 @@ p{
 
 nav {
 	opacity: 0;
-	animation: 1s 1.75s fadein linear forwards;
+	animation: 1s 2s fadein linear forwards;
 }
 
 @keyframes fadein {
@@ -216,12 +216,12 @@ nav {
 @keyframes slidefade {
 	0% {
 		opacity: 0;
-		transform: translate( 0, 45%);
+		transform: translate( 0, 25%);
 	}
 
 	50% {
 		opacity: 1;
-		transform: translate( 0, 45%);
+		transform: translate( 0, 25%);
 	}
 
 	100% {
@@ -237,17 +237,17 @@ nav {
 
 .cake {
 	opacity: 0;
-	animation: 1.5s 3s scalein ease-out forwards;
+	animation: 1.5s 2.75s scalein ease-out forwards;
 }
 
 .intro {
 	opacity: 0;
-	animation: 1s 3.5s fadein ease-in forwards;
+	animation: 1s 3.25s fadein ease-in forwards;
 }
 
 .cake-header {
 	opacity: 0;
-	animation: 1s 4.75s fadein forwards;
+	animation: 1s 4.5s fadein forwards;
 }
 
 @keyframes scalein {
